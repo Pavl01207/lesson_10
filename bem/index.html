@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>This is BEM</title>
+</head>
+
+<body>
+	<header>
+		<div class="first">
+			<div class="first__container">
+				<div class="first__img">
+					<img src="img/girl.jpg" alt="girl">
+				</div>
+				<div class="title">
+					<p class="title__text">Who We Are</p>
+					<h2 class="title__article">Why Createx</h2>
+				</div>
+				<div class="first__list">
+					<ul>
+						<li>A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+						<li>Vulputate placerat amet pulvinar lorem nisl.</li>
+						<li>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
+						<li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
+						<li>Tincidunt sagittis neque sem ac eget.</li>
+						<li>Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</li>
+					</ul>
+				</div>
+				<button class="button">More about us</button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="second">
+			<div class="second__container">
+				<div class="title">
+					<p class="title__text">Ready to Learn?</p>
+					<h2 class="title__article">Featured Courses</h2>
+				</div>
+				<!--БЕМ модифікатор-->
+				<button class="button button--white">View all courses</button>
+				<div class="second__info info">
+					<!--БЕМ Мікс виділив новий БЕМ-блок info-->
+					<div class="info__img">
+						<img src="img/person1.jpg" alt="person1">
+					</div>
+					<h4 class="info__title">Marketing</h4>
+					<p class="info__about">The Ultimate Google Ads Training Course</p>
+					<p class="info__price">$100</p>
+					<p class="info__name">by Jerome Bell</p>
+					<!--БЕМ блок що використовуєтьбся повторно із модифікатором-->
+					<div class="info__img">
+						<img src="img/person2.jpg" alt="person2">
+					</div>
+					<h4 class="info__title info__title--blue">Managment</h4>
+					<p class="info__about">Product Management Fundamentals</p>
+					<p class="info__price">$480</p>
+					<p class="info__name">by Marvin McKinney</p>
+					<!--БЕМ блок-->
+					<div class="info__img">
+						<img src="img/person3.jpg" alt="person3">
+					</div>
+					<h4 class="info__title info__title--orange">HR & Recruting</h4>
+					<p class="info__about">HR Management and Analytics</p>
+					<p class="info__price">$200</p>
+					<p class="info__name">by Leslie Alexander Li</p>
+					<!--БЕМ блок-->
+					<div class="info__img">
+						<img src="img/person4.jpg" alt="person4">
+					</div>
+					<h4 class="info__title info__title--green">Marketing</h4>
+					<p class="info__about">Brand Management & PR Communications</p>
+					<p class="info__price">$530</p>
+					<p class="info__name">by Kristin Watson</p>
+					<!--БЕМ блок-->
+					<div class="info__img">
+						<img src="img/person5.jpg" alt="person5">
+					</div>
+					<h4 class="info__title info__title--blue">Managment</h4>
+					<p class="info__about">Business Development Management</p>
+					<p class="info__price">$400</p>
+					<p class="info__name">by Dianne Russell</p>
+					<!--БЕМ блок-->
+					<div class="info__img">
+						<img src="img/person6.jpg" alt="person6">
+					</div>
+					<h4 class="info__title info__title--red">Design</h4>
+					<p class="info__about">Graphic Design Basic</p>
+					<p class="info__price">$500</p>
+					<p class="info__name">by Guy Hawkins</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="third">
+			<div class="third__container">
+				<div class="title">
+					<p class="title__text">Our benefits</p>
+					<h2 class="title__article">Thats how we do it</h2>
+				</div>
+				<div class="third__menu">
+					<ul>
+						<li class="third__menu-tutors">Experienced Tutors</li>
+						<li class="third__menu-feedback">Feedback & Support</li>
+						<li class="third__menu-library">24/7 Online Library</li>
+						<li class="third__menu-community">Community</li>
+					</ul>
+				</div>
+				<div class="third__text">
+					<h3 class="third__title">Only practicing tutors</h3>
+					<p class="third__about">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum
+						suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam
+						mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet.
+						Amet enim, nisi tempus vehicula.</p>
+				</div>
+				<div class="third__img">
+					<img src="img/illustration.svg" alt="illustration">
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,400&family=Lato:wght@400;700;900&family=Montagu+Slab:opsz,wght@16..144,200;16..144,700&family=Roboto:wght@400;700;900&display=swap');
+
+body {
+	font-family: "Lato", serif;
+	font-style: normal;
+}
+
+[class$="__container"] {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+[class$="__title"] {
+	font-weight: 900;
+	font-style: normal;
+	font-size: 46px;
+	line-height: 60px;
+	margin-bottom: 75px;
+}
+
+[class$="__image"] img {
+	width: 100%;
+}
+
+[class$="__image"] {
+	margin-bottom: 75px;
+}
+
+[class$="main-text"] p,
+[class$="__text"] blockquote {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+[class$="main-text"] {
+	margin-bottom: 40px;
+}
+
+[class$="__text"] p:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+[class$="__blockquote"] {
+	margin-bottom: 30px;
+}
+
+[class$="__blockquote"] blockquote {
+	margin-left: 40px;
+}
+
+blockquote::before {
+	background: url(../img/icons/braces.svg) 0 0 no-repeat;
+	content: "";
+	width: 30px;
+	height: 18px;
+	display: inline-block;
+	margin-left: -40px;
+	margin-right: 10px;
+}
+
+ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+ul li:last-child {
+	margin-bottom: 20px;
+}
+
+ul li::before {
+	background: url(../img/icons/check.svg) 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+[class$="__text"]:last-child {
+	margin-bottom: 50px;
+}
+
+.button__container {
+	margin-left: 350px;
+}
+
+.button__container a {
+	font-weight: 700;
+	font-size: 20px;
+	color: crimson;
+}
+
+.button__container {
+	padding-left: 3px;
+	margin-bottom: 20px;
+	width: 50px;
+	height: 20px;
+	border-radius: 3px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.button__container a:hover {
+	color: black;
+}
